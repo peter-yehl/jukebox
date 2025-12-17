@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "artist": "The Beatles",
+    "album": "Abbey Road",
+    "image": "covers/abbey_road.jpg"
+  },
+  {
+    "id": 2,
+    "artist": "Pink Floyd",
+    "album": "The Dark Side of the Moon",
+    "image": "covers/dark_side_of_the_moon.jpg"
+  },
+  {
+    "id": 3,
+    "artist": "Led Zeppelin",
+    "album": "Led Zeppelin_IV",
+    "image": "covers/led_zeppelin_IV.jpg"
+  }
+]
