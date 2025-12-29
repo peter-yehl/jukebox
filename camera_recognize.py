@@ -25,7 +25,7 @@ if not cap.isOpened():
 last_inference = 0
 label = "Scanning..."
 
-def recognize_frame(frame, k=3, threshold=0.85):
+def recognize_frame(frame, k=3, threshold=0.7):
     image = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
     image = Image.fromarray(image)
     image = preprocess(image).unsqueeze(0)
@@ -38,10 +38,10 @@ def recognize_frame(frame, k=3, threshold=0.85):
     scores, indices = index.search(emb, k)
 
     if scores[0][0] < threshold:
-        return "Unknown"
+        return "Unknown Album"
 
     top = metadata[indices[0][0]]
-    return f"{top['artist']} – {top['album']}"
+    return f"{top['artist']} {top['album']}"
 
 # ==== Main Loop ====
 while True:
@@ -52,7 +52,7 @@ while True:
     now = time.time()
 
     # Run recognition every 1 second
-    if now - last_inference > 1.0:
+    if now - last_inference > .5:
         label = recognize_frame(frame)
         last_inference = now
 

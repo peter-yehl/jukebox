@@ -16,5 +16,47 @@
     "artist": "Led Zeppelin",
     "album": "Led Zeppelin_IV",
     "image": "covers/led_zeppelin_IV.jpg"
+  },
+  {
+    "id": 4,
+    "artist": "Creedance Clearwater Revival",
+    "album": "Cosmos Factory",
+    "image": "covers/cosmos_factory.jpg"
+  },
+  {
+    "id": 5,
+    "artist": "Guess Who",
+    "album": "The Best of The Guess Who",
+    "image": "covers/the_best_of_guess_who.jpg"
+  },
+  {
+    "id": 6,
+    "artist": "Pink Floyd",
+    "album": "The Wall",
+    "image": "covers/the_wall.jpg"
+  },
+  {
+    "id": 7,
+    "artist": "The Moody Blues",
+    "album": "To Our Childrens Children",
+    "image": "covers/to_our_childrens_children.jpg"
+  },
+  {
+    "id": 8,
+    "artist": "Chicago",
+    "album": "Chicago X",
+    "image": "covers/chicago_X.jpg"
+  },
+  {
+    "id": 9,
+    "artist": "Chicago",
+    "album": "Chicago II",
+    "image": "covers/chicago_ii.jpg"
+  },
+  {
+    "id": 10,
+    "artist": "Chicago",
+    "album": "Chicago III",
+    "image": "covers/chicago_III.jpg"
   }
 ]
