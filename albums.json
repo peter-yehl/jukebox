@@ -3,60 +3,176 @@
     "id": 1,
     "artist": "The Beatles",
     "album": "Abbey Road",
-    "image": "covers/abbey_road.jpg"
+    "image": "covers/abbey_road.jpg",
+    "theme": [
+      "sunset",
+      "nostalgic",
+      "warm",
+      "optimistic",
+      "classic",
+      "dreamy",
+      "peaceful",
+      "retro"
+    ]
   },
   {
     "id": 2,
     "artist": "Pink Floyd",
     "album": "The Dark Side of the Moon",
-    "image": "covers/dark_side_of_the_moon.jpg"
+    "image": "covers/dark_side_of_the_moon.jpg",
+    "theme": [
+      "space",
+      "cosmic",
+      "psychedelic",
+      "surreal",
+      "dreamlike",
+      "abstract",
+      "hypnotic",
+      "prismatic"
+    ]
   },
   {
     "id": 3,
     "artist": "Led Zeppelin",
     "album": "Led Zeppelin_IV",
-    "image": "covers/led_zeppelin_IV.jpg"
+    "image": "covers/led_zeppelin_IV.jpg",
+    "theme": [
+      "mountains",
+      "mythical",
+      "storm",
+      "medieval",
+      "mystical",
+      "epic",
+      "nature",
+      "powerful"
+    ]
   },
   {
     "id": 4,
     "artist": "Creedance Clearwater Revival",
     "album": "Cosmos Factory",
-    "image": "covers/cosmos_factory.jpg"
+    "image": "covers/cosmos_factory.jpg",
+    "theme": [
+      "bayou",
+      "river",
+      "southern",
+      "roadtrip",
+      "americana",
+      "sunset",
+      "vintage",
+      "small-town"
+    ]
   },
   {
     "id": 5,
     "artist": "Guess Who",
     "album": "The Best of The Guess Who",
-    "image": "covers/the_best_of_guess_who.jpg"
+    "image": "covers/the_best_of_guess_who.jpg",
+    "theme": [
+      "70s",
+      "nostalgic",
+      "city",
+      "night",
+      "retro",
+      "warm",
+      "laid-back",
+      "classic rock"
+    ]
   },
   {
     "id": 6,
     "artist": "Pink Floyd",
     "album": "The Wall",
-    "image": "covers/the_wall.jpg"
+    "image": "covers/the_wall.jpg",
+    "theme": [
+      "dark",
+      "surreal",
+      "psychological",
+      "war",
+      "industrial",
+      "isolation",
+      "dreamlike",
+      "gritty"
+    ]
   },
   {
     "id": 7,
     "artist": "The Moody Blues",
     "album": "To Our Childrens Children",
-    "image": "covers/to_our_childrens_children.jpg"
+    "image": "covers/to_our_childrens_children.jpg",
+    "theme": [
+      "space",
+      "stars",
+      "ethereal",
+      "peaceful",
+      "celestial",
+      "dreamlike",
+      "spiritual",
+      "cosmic"
+    ]
   },
   {
     "id": 8,
     "artist": "Chicago",
     "album": "Chicago X",
-    "image": "covers/chicago_X.jpg"
+    "image": "covers/chicago_X.jpg",
+    "theme": [
+      "city",
+      "skyline",
+      "summer",
+      "romantic",
+      "golden hour",
+      "urban",
+      "smooth",
+      "warm"
+    ]
   },
   {
     "id": 9,
     "artist": "Chicago",
     "album": "Chicago II",
-    "image": "covers/chicago_ii.jpg"
+    "image": "covers/chicago_ii.jpg",
+    "theme": [
+      "urban",
+      "rain",
+      "jazz",
+      "night",
+      "retro",
+      "brass",
+      "downtown",
+      "moody"
+    ]
   },
   {
     "id": 10,
     "artist": "Chicago",
     "album": "Chicago III",
-    "image": "covers/chicago_III.jpg"
+    "image": "covers/chicago_III.jpg",
+    "theme": [
+      "festival",
+      "summer",
+      "psychedelic",
+      "roadtrip",
+      "sunshine",
+      "nature",
+      "free-spirited",
+      "vintage"
+    ]
+  },
+  {
+    "id": 11,
+    "artist": "Val Stoecklein",
+    "album": "Grey Life",
+    "image": "covers/grey_life.jpg",
+    "theme": [
+      "folk",
+      "prairie",
+      "autumn",
+      "melancholy",
+      "acoustic",
+      "solitude",
+      "countryside",
+      "mist"
+    ]
   }
 ]

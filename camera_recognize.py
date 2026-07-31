@@ -6,6 +6,7 @@ import numpy as np
 import torch
 import clip
 from PIL import Image
+import play_lyric
 
 # ==== Load CLIP ====
 device = "cpu"
@@ -51,15 +52,13 @@ while True:
 
     now = time.time()
 
-    # Run recognition every 1 second
+    # Run recognition every 0.5 seconds
     if now - last_inference > .5:
         label = recognize_frame(frame)
+        play_lyric(label)
         last_inference = now
 
-    cv2.putText(frame, label, (20, 40),
-                cv2.FONT_HERSHEY_SIMPLEX, 1,
-                (0, 255, 0), 2)
-
+    cv2.putText(frame, label, (20, 40), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
     cv2.imshow("Album Recognition (q to quit)", frame)
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
